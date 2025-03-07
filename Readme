@@ -1,0 +1,17 @@
+# Scenario
+Our cat, Gado, has been kidnapped. The kidnapper has sent us a document with their requests in MS Word Document format. We have converted the document to PDF format and extracted the image from the MS Word file for your convenience.
+
+You can download the attached file below to your local machine for inspection. 
+
+## Process
+As we have a doc file from the kidnapper. We can get usefull information by analyzing that doc file.
+To analyze it write 
+```
+pdfinfo
+```
+Pdfinfo displays various metadata related to a PDF file, such as title, subject, author, creator, and creation date. 
+
+If you don't have pdfinfo installed, you can install it using 
+``` 
+sudo apt install poppler-utils 
+```
