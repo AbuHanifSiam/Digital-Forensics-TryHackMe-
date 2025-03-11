@@ -37,4 +37,4 @@ fig 2.1 and fig. 2.2
 ![exiftool](Digital Forensics Images/fig 2.2.png)
 
 If you take the above coordinates and search one of the online maps, you will learn more about this location. Searching Microsoft Bing Maps or Google Maps for 51 deg 30' 51.90" N, 0 deg 5' 38.73" W reveals the street where the photo was taken. Note that for the search to work, we had to replace deg with ° and remove the extra white space. In other words, we typed 51°30'51.9"N 0°05'38.7"W in the map search bar.
-![google map](Digital Forensics Images/fig 3.png)
+![google map](https://github.com/AbuHanifSiam/Digital-Forensics-TryHackMe-/blob/6b68542b35576a6ac6f2be06bf28ca98f2d72700/Digital%20Forensics%20Images/fig%203.png)
