@@ -15,6 +15,7 @@ If you don't have pdfinfo installed, you can install it using
 ``` 
 sudo apt install poppler-utils 
 ```
+![pdfinfo](Digital Forensics Images/fig 1.png)
 fig 1
 From the screenshot we can see, we get some details of the file. When it was created and which software was used to create it.
 The PDF metadata clearly shows that it was created using MS Word for Office 2016 on February 23, 2022.
@@ -31,7 +32,9 @@ Because smartphones are equipped with a GPS sensor, finding GPS coordinates embe
 
 you can install it using sudo apt install libimage-exiftool-perl
 
+![exiftool](Digital Forensics Images/fig 2.1.png)
 fig 2.1 and fig. 2.2
+![exiftool](Digital Forensics Images/fig 2.2.png)
 
 If you take the above coordinates and search one of the online maps, you will learn more about this location. Searching Microsoft Bing Maps or Google Maps for 51 deg 30' 51.90" N, 0 deg 5' 38.73" W reveals the street where the photo was taken. Note that for the search to work, we had to replace deg with ° and remove the extra white space. In other words, we typed 51°30'51.9"N 0°05'38.7"W in the map search bar.
-
+![google map](Digital Forensics Images/fig 3.png)
