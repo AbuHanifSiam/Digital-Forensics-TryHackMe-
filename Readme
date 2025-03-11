@@ -15,3 +15,23 @@ If you don't have pdfinfo installed, you can install it using
 ``` 
 sudo apt install poppler-utils 
 ```
+fig 1
+From the screenshot we can see, we get some details of the file. When it was created and which software was used to create it.
+The PDF metadata clearly shows that it was created using MS Word for Office 2016 on February 23, 2022.
+
+
+Photo EXIF Data
+EXIF stands for Exchangeable Image File Format; it is a standard for saving metadata to image files. Whenever you take a photo with your smartphone or with your digital camera, plenty of information gets embedded in the image. The following are examples of metadata that can be found in the original digital images:
+
+    Camera model / Smartphone model
+    Date and time of image capture
+    Photo settings such as focal length, aperture, shutter speed, and ISO settings
+
+Because smartphones are equipped with a GPS sensor, finding GPS coordinates embedded in the image is highly probable. The GPS coordinates, i.e., latitude and longitude, would generally show the place where the photo was taken.
+
+you can install it using sudo apt install libimage-exiftool-perl
+
+fig 2.1 and fig. 2.2
+
+If you take the above coordinates and search one of the online maps, you will learn more about this location. Searching Microsoft Bing Maps or Google Maps for 51 deg 30' 51.90" N, 0 deg 5' 38.73" W reveals the street where the photo was taken. Note that for the search to work, we had to replace deg with ° and remove the extra white space. In other words, we typed 51°30'51.9"N 0°05'38.7"W in the map search bar.
+
